@@ -475,7 +475,7 @@ class Statistics {
     return type < HISTOGRAM_ENUM_MAX;
   }
 
-  StatsLevel stats_level_ = kExceptDetailedTimers;
+  StatsLevel stats_level_ = kAll;
 };
 
 // Create a concrete DBStatistics object
